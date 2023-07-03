@@ -37,6 +37,8 @@ public class ExerciseIntroduction {
      * @param message input message
      * @return encoded message
      */
+
+
     public String encodeMessage(String message) {
         return Base64.getEncoder().encodeToString(message.getBytes());
     }
